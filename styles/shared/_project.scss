@@ -1,0 +1,1415 @@
+/**
+ * Project specific styling.
+ */
+.desktop.vote-btn {
+    display: block !important
+    // display: none !important
+}
+
+#vote-form {
+	 display: block !important
+    // display: none !important
+}
+
+.battle-results {
+	display: block !important
+    // display: none !important
+}
+
+#confetti {
+    position: absolute;
+    opacity: 0;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -10;
+    -webkit-animation-duration: 120s;
+    animation-duration: 120s;
+    -webkit-animation-name: ConfettiFadeout;
+    animation-name: ConfettiFadeout;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1
+}
+
+.bigWinner {
+    -webkit-box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.3);
+    font-size: 1.2em;
+    background-color: #fff;
+    width: 100%;
+    max-width: 490px;
+    margin: 0 auto 70px auto;
+    border-radius: 10px 10px 10px 0
+}
+
+.bigWinner .tease {
+    padding-bottom: 0
+}
+
+.bigWinner .tease:before {
+    margin: 0;
+    border-bottom: none;
+    height: 0
+}
+
+.bigWinner .tease-container-right {
+    width: 100%;
+    float: right
+}
+
+.bigWinner .tease-photo-img {
+    padding-bottom: 0 !important;
+    height: auto;
+    margin-bottom: 0 !important
+}
+
+.bigWinner .has-art .tease-photo {
+    float: left;
+    margin-right: 1em;
+    margin-left: 0;
+    margin-bottom: 0
+}
+
+.bigWinner .has-art .tease-photo img {
+    margin-bottom: 0
+}
+
+.bigWinner .has-art .tease-photo .tease-headline {
+    margin-bottom: 0
+}
+
+.bigWinner .tease-container-right .tease-summary,
+.bigWinner .tease-container-right h3 {
+    width: 95%
+}
+
+.bigWinner .tease-container-right h3 {
+    font-size: 1.1em;
+    margin-top: 1.1em
+}
+
+.bigWinner h4 {
+    margin-top: 1.8em;
+    margin-bottom: 0;
+    font-size: 1.02em;
+    color: darkRed;
+    opacity: .8
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .mobile.bigWinner {
+        display: table;
+        text-align: center;
+        margin-bottom: 4em;
+        -webkit-box-shadow: none;
+        box-shadow: none
+    }
+
+    .mobile.bigWinner .has-art .tease-photo {
+        margin: 0;
+        float: none
+    }
+
+    .mobile.bigWinner .tease-container-right .tease-summary {
+        width: 100%;
+        padding: 0 15px
+    }
+
+    .mobile.bigWinner .tease-container-right h3 {
+        width: 100%;
+        padding: 0
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 2500px) {
+    .mobile.bigWinner {
+        display: none
+    }
+}
+
+.mfp-hide {
+    display: none
+}
+
+.l-container {
+    max-width: 970px;
+    margin: 0 auto
+}
+
+.mfp-content {
+    position: relative;
+    max-width: 1200px;
+    color: #333;
+    margin-top: 50px
+}
+
+.mfp-content .mfp-close {
+    background-color: #ccc
+}
+
+.mfp-content h3 {
+    font-family: "Whitman Display", Georgia, Times, serif;
+    font-weight: normal;
+    font-size: 50px;
+    letter-spacing: -0.5px;
+    margin: 50px auto 10px auto
+}
+
+.mfp-content p {
+    font-family: "Poynter Serif RE", Georgia, Times, serif;
+    font-size: 15px;
+    line-height: 135%;
+    letter-spacing: -0.3px;
+    margin-bottom: 8px
+}
+
+.mfp-content .tease-photo {
+    position: absolute;
+    margin-left: -30%;
+    margin-top: -20px;
+    width: 28% !important
+}
+
+.mfp-bg {
+    background-color: #ffffff !important;
+    opacity: 0.99 !important
+}
+
+.mfp-wrap.mfp-gallery {
+    overflow-y: auto !important
+}
+
+.mfp-arrow {
+    position: fixed
+}
+
+.mfp-arrow:before,
+.mfp-arrow .mfp-b {
+    border-top-width: 21px;
+    border-bottom-width: 21px;
+    opacity: 1 !important
+}
+
+.mfp-arrow-left {
+    left: 0
+}
+
+.mfp-arrow-left:after,
+.mfp-arrow-left .mfp-a {
+    border-right: 17px solid #ccc !important;
+    margin-left: 31px
+}
+
+.mfp-arrow-left:before,
+.mfp-arrow-left .mfp-b {
+    margin-left: 25px;
+    border-right: 27px solid #ccc !important
+}
+
+.mfp-arrow-right {
+    right: 0
+}
+
+.mfp-arrow-right:after,
+.mfp-arrow-right .mfp-a {
+    border-left: 17px solid #ccc !important;
+    margin-left: 39px
+}
+
+.mfp-arrow-right:before,
+.mfp-arrow-right .mfp-b {
+    border-left: 27px solid #ccc !important
+}
+
+.mfp-fade.mfp-bg {
+    opacity: 0;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-name: fadein;
+    animation-name: fadein
+}
+
+.mfp-fade.mfp-bg.mfp-ready {
+    opacity: 0.8
+}
+
+.mfp-fade.mfp-bg.mfp-removing {
+    opacity: 0
+}
+
+.mfp-fade.mfp-wrap .mfp-content {
+    opacity: 0;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-name: fadein;
+    animation-name: fadein
+}
+
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+    opacity: 1
+}
+
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+    opacity: 0
+}
+
+.l-article {
+    margin: 40px 0 0 0;
+    position: relative;
+    width: 970px
+}
+
+.l-article-topper>.article-body,
+.l-article-topper {
+    width: 970px !important;
+    text-align: center !important;
+    margin: 0px auto
+}
+
+.article-headline {
+    font-family: "Whitman Display", Georgia, Times, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 5.5em;
+    text-align: center;
+    letter-spacing: -1.85px;
+    line-height: 100%;
+    margin: 0 auto 10px auto
+}
+
+.l-article-topper>.article-body {
+    padding-left: 30px;
+    padding-right: 30px
+}
+
+.article-body {
+    font-family: "Poynter Serif RE", Georgia, Times, serif;
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 15px;
+    letter-spacing: -0.3px;
+    min-height: auto
+}
+
+.article-byline-mod:before {
+    display: none
+}
+
+.article-byline-mod {
+    color: #333;
+    width: 970px !important;
+    text-align: center !important
+}
+
+.article-byline {
+    font-weight: bold;
+    border-right: none;
+    margin-top: 8px
+}
+
+.article-dateline {
+    color: #333;
+    margin-top: 6px
+}
+
+.package-share {
+    margin-bottom: 48px
+}
+
+.bracket {
+    margin-bottom: 48px
+}
+
+.vote-btn {
+    text-align: center
+}
+
+.vote-btn .btn-large {
+    margin: 24px auto;
+    display: inline-block
+}
+
+.vote-popup-content .vote-content {
+    width: 70%;
+    height: 2000px;
+    margin: 48px auto
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .mfp-hide {
+        display: block
+    }
+
+    .vote-popup-content .vote-content {
+        width: 90%;
+        height: 1000px;
+        background-color: green;
+        margin: 48px auto
+    }
+
+    .l-article {
+        margin: 20px 0 0 0;
+        position: relative;
+        width: 100% !important
+    }
+
+    .l-article .article {
+        width: 100% !important
+    }
+
+    .l-article-topper {
+        width: 100% !important;
+        text-align: center !important;
+        margin-bottom: 20px
+    }
+
+    .article-headline {
+        font-family: "Whitman Display", Georgia, Times, serif;
+        font-weight: normal;
+        text-transform: uppercase;
+        font-size: 3.5em;
+        text-align: center;
+        letter-spacing: -1.85px;
+        line-height: 100%;
+        margin: 0 auto 10px auto
+    }
+
+    .l-article-topper>.article-body {
+        width: 100% !important;
+        padding-left: 30px;
+        padding-right: 30px
+    }
+
+    .article-body {
+        width: 100% !important;
+        font-family: "Poynter Serif RE", Georgia, Times, serif;
+        font-size: 1em;
+        line-height: 150%;
+        margin-bottom: 1em;
+        letter-spacing: -0.3px
+    }
+
+    .article-byline-mod:before {
+        display: none
+    }
+
+    .article-byline-mod {
+        width: 80% !important;
+        text-align: center !important;
+        color: #333;
+        margin-left: 10%;
+        padding-bottom: 10px
+    }
+
+    .article-byline {
+        font-weight: bold;
+        border-right: none;
+        margin-top: 8px
+    }
+
+    .article-dateline {
+        color: #333;
+        margin-top: 6px
+    }
+
+    .connect-mobile {
+        display: block;
+        font-family: "Benton Sans", sans-serif;
+        font-size: 1.2em;
+        line-height: 200%;
+        float: right;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        margin-top: 10px
+    }
+
+    .connect-desktop {
+        display: none
+    }
+}
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeout {
+    from {
+        opacity: 1
+    }
+
+    to {
+        opacity: .2
+    }
+}
+
+@keyframes fadeout {
+    from {
+        opacity: 1
+    }
+
+    to {
+        opacity: .2
+    }
+}
+
+@-webkit-keyframes ConfettiFadeout {
+
+    0%,
+    100% {
+        opacity: 0
+    }
+
+    5%,
+    80% {
+        opacity: 1
+    }
+}
+
+@keyframes ConfettiFadeout {
+
+    0%,
+    100% {
+        opacity: 0
+    }
+
+    5%,
+    80% {
+        opacity: 1
+    }
+}
+
+h5.label {
+    font-family: "Popular";
+    font-weight: bold;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0 auto
+}
+
+.mobile {
+    display: none
+}
+
+.desktop.vote-btn .btn-large {
+    font-size: 18px
+}
+
+.article-byline {
+    padding-right: 0;
+    margin-right: 0
+}
+
+.article-byline-mod {
+    padding-bottom: 5px
+}
+
+.article-id-highlight {
+    display: none
+}
+
+.btn-large,
+.btn-small {
+    background-color: #61bf1a;
+    color: white;
+    font-family: "Benton Sans", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    margin: 24px auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+    opacity: 0.8;
+    padding: 10px 15px !important;
+    font-size: 12px;
+    letter-spacing: 0.4px
+}
+
+.article-headline {
+    text-align: center;
+    color: #333;
+    font-family: "Whitman Display", Georgia, Times, serif;
+    font-size: 55px;
+    line-height: 100%;
+    margin: 12px auto 16px auto;
+    font-weight: normal;
+    letter-spacing: -1.5px
+}
+
+.l-article-topper.wide {
+    text-align: center
+}
+
+.battleWrapper {
+    margin: 0 auto
+}
+
+.round1 .battleWrapper {
+    width: 588px
+}
+
+.round1 .battleWrapper .battle {
+    margin: 15px 15px
+}
+
+.round2 .battleWrapper {
+    width: 600px
+}
+
+.round3 .battleWrapper {
+    width: 294px
+}
+
+.round4 .battleWrapper {
+    width: 147px
+}
+
+.battle {
+    float: left;
+    position: relative;
+    width: 117px;
+    display: block;
+    text-align: center;
+    margin: 15px
+}
+
+.battle h4 {
+    display: none
+}
+
+.battle p {
+    text-align: left;
+    padding: 5px;
+    font-size: .8em;
+    height: 160px
+}
+
+.battle-results {
+    display: none;
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    top: 130px;
+    left: 0
+}
+
+.battle-results:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.battle-results-option {
+    float: left;
+    width: 117px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #666;
+    margin: 10px auto;
+    border: 1px solid #000;
+    padding: 6px 0;
+    background: rgba(255, 255, 255, 0.95);
+    font-family: "Benton Sans", Helvetica, Arial, sans-serif
+}
+
+.battle-results-option.is-winning {
+    color: #000
+}
+
+.firstWarrior,
+.secondWarrior {
+    width: 100%;
+    display: block;
+    background-color: #fff;
+    position: relative
+}
+
+.secondWarrior h4 {
+    padding-top: 5px
+}
+
+.checked img {
+    opacity: 1
+}
+
+.unchecked img {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-name: fadeout;
+    animation-name: fadeout;
+    opacity: .2
+}
+
+.versus {
+    content: url("http://stmedia.startribune.com/images/bb_vs5.png");
+    text-align: center;
+    width: 117px;
+    margin-bottom: 2px
+}
+
+.btn-poll-submit {
+    padding: 5px;
+    background-color: #fff;
+    color: #000;
+    font-family: "Benton Sans", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+    text-align: center
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.4em;
+    margin-top: 50px
+}
+
+.l-article {
+    margin-left: 0px
+}
+
+.l-article-body.wide {
+    width: 970px
+}
+
+label>div>input+img {
+    cursor: pointer;
+    border: 2px solid transparent
+}
+
+div>input:hover:before {
+    border: 2px solid #4778d9 !important;
+    background: #ffffff
+}
+
+.mobileChatter {
+    display: none
+}
+
+.topBox {
+    width: 100%;
+    text-align: center
+}
+
+.topBox h1 {
+    text-align: center;
+    color: #333;
+    font-family: "Whitman Display", Georgia, Times, serif;
+    font-size: 55px;
+    line-height: 60px;
+    margin-top: 12px;
+    margin-bottom: 16px;
+    font-weight: normal;
+    letter-spacing: -1.5px
+}
+
+.round1,
+.round2,
+.round3,
+.round4 {
+    display: table;
+    text-align: center;
+    margin: 1em auto;
+    padding-bottom: 90px
+}
+
+.bracket-submit-wrapper {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.5em;
+    background: #000;
+    -webkit-box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.3);
+    z-index: 999999;
+    text-align: center
+}
+
+.js-bracket-submit {
+    display: inline-block
+}
+
+.bracket-submit-wrapper.is-disabled p {
+    display: block
+}
+
+.bracket-submit-wrapper p {
+    display: none
+}
+
+.bracket-submit-wrapper.is-disabled .btn-small {
+    display: none
+}
+
+p.submitMessage {
+    font-family: "Benton Sans", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 1.4em;
+    color: #fff
+}
+
+.chatter {
+    text-align: center;
+    font: normal normal 1.3em/1.7em "Poynter Serif RE", Georgia, Times, serif;
+    margin: 0px 25px 0px 25px
+}
+
+.chatter p {
+    text-align: center;
+    margin-top: 20px
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    body.page-article {
+        width: 970px
+    }
+
+    .mobile {
+        display: block
+    }
+
+    .battle.defeated .mobile p {
+        min-height: 100px
+    }
+
+    .l-article-body.wide {
+        width: 100% !important;
+        overflow: hidden
+    }
+
+    .recirc {
+        display: none
+    }
+
+    .mobile.chatter {
+        display: block
+    }
+
+    .mobile.chatter p {
+        padding: 10px 0 0;
+        text-align: center;
+        margin-top: 0px
+    }
+
+    .battle p {
+        display: block
+    }
+
+    .mobile.vote-btn {
+        display: none
+    }
+
+    .tipso_bubble {
+        display: none
+    }
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 640px) {
+    body.page-article {
+        width: 100%
+    }
+
+    h5.label {
+        font-size: .8em;
+        letter-spacing: 1px
+    }
+
+    .site-footer {
+        padding-bottom: 40px
+    }
+
+    .mobile.vote-btn {
+        display: none
+    }
+
+    .mobile.skip-btn {
+        margin-bottom: 3em
+    }
+
+    #Bracket {
+        margin-top: 0;
+        font-size: 0.8em !important;
+        overflow-x: scroll
+    }
+
+    .battleWrapper {
+        width: 100% !important
+    }
+
+    .battleWrapper .versus {
+        font-family: "Benton Sans", Helvetica, Arial, sans-serif;
+        content: "VS.";
+        float: left;
+        width: 10%;
+        margin-bottom: 0;
+        display: block;
+        color: #333;
+        margin-top: 35%
+    }
+
+    .battleWrapper .firstWarrior,
+    .battleWrapper .secondWarrior {
+        display: table;
+        padding: 0 10px;
+        width: 45%;
+        float: left
+    }
+
+    .battleWrapper .secondWarrior {
+        float: right
+    }
+
+    .battleWrapper .secondWarrior h4 {
+        padding: 0
+    }
+
+    .battleWrapper .battle {
+        margin: 15px 0 !important;
+        border-bottom: 1px solid #ccc;
+        width: 100%;
+        padding-bottom: 30px
+    }
+
+    .battleWrapper .battle .topWarrior,
+    .battleWrapper .battle .bottomWarrior {
+        float: left;
+        display: block;
+        text-align: center
+    }
+
+    .battleWrapper .battle .topWarrior h4,
+    .battleWrapper .battle .bottomWarrior h4 {
+        margin-bottom: 0;
+        min-height: 0;
+        font-size: .9em
+    }
+
+    .battleWrapper .battle .topWarrior img,
+    .battleWrapper .battle .bottomWarrior img {
+        display: block
+    }
+
+    .battleWrapper .battle .mobileBlurb {
+        display: none;
+        text-align: left;
+        margin: 0 5px 5px 125px
+    }
+
+    .battleWrapper .battle .mobileBlurb p {
+        padding: 0;
+        text-align: left
+    }
+
+    .home-logo {
+        margin: 9px auto
+    }
+
+    .recirc {
+        display: none
+    }
+
+    .article-headline {
+        margin-top: 7vw;
+        font-size: 12vw;
+        line-height: 12vw
+    }
+
+    .l-article-body.wide {
+        width: 100%;
+        overflow: hidden
+    }
+
+    aside.article-share {
+        position: relative;
+        margin-left: 0px;
+        width: 100%;
+        max-width: 640px;
+        height: 35px;
+        clear: both;
+        margin-bottom: 18px
+    }
+
+    .tipso_bubble {
+        display: none
+    }
+
+    .battle {
+        width: 100%
+    }
+
+    .mobile {
+        display: block
+    }
+
+    .mobile p {
+        padding: 10px 10px;
+        text-align: center
+    }
+
+    .mobile.chatter p {
+        padding: 10px 0 0;
+        text-align: center;
+        margin-top: 0px
+    }
+
+    .chatter {
+        margin: 10px 0 0 0
+    }
+
+    .round1,
+    .round2,
+    .round3,
+    .round4 {
+        width: 100%;
+        text-align: center
+    }
+
+    .page-article {
+        padding-top: 0
+    }
+
+    .battle-results-option {
+        width: 50%;
+        -webkit-animation-duration: 3s;
+        animation-duration: 3s;
+        -webkit-animation-name: fadein;
+        animation-name: fadein
+    }
+
+    .battle-results {
+        top: 170px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 10px;
+        display: none
+    }
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 344px) {
+    h5.label {
+        text-transform: none
+    }
+
+    .bracket {
+        margin: 15px
+    }
+
+    .battle-results {
+        top: 140px;
+        display: none
+    }
+
+    .battleWrapper .battle .topWarrior h4,
+    .battleWrapper .battle .bottomWarrior h4 {
+        font-size: .8em;
+        min-height: 0px
+    }
+}
+
+@supports (display: grid) {
+    .bracket {
+        display: grid;
+        grid-template-columns: repeat(4, 35px minmax(auto, auto)) 35px repeat(4, 35px minmax(auto, auto)) 35px;
+        grid-template-rows: repeat(32, minmax(auto, -webkit-max-content));
+        grid-template-rows: repeat(32, minmax(auto, max-content));
+        grid-gap: 0 0
+    }
+}
+
+@supports not (display: grid) {
+    .bracket {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex
+    }
+}
+
+.bracket {
+    margin-top: -70px;
+    font: normal normal 0.92308em "Benton Sans Condensed Medium", Helvetica, Arial, sans-serif;
+    height: auto;
+    background-color: transparent;
+    border-bottom: 1px solid #333;
+    padding-bottom: 50px
+}
+
+.bracket .layout {
+    background: #39f;
+    display: block
+}
+
+.bracket .bar {
+    color: transparent;
+    display: block;
+    min-height: 40px;
+    z-index: 0;
+    background-image: url("http://stmedia.startribune.com/images/beerBracketVLine.png?c=1");
+    background-repeat: repeat-y
+}
+
+.bracket .winner,
+.bracket .loser,
+.bracket .current {
+    display: block;
+    min-width: 150px
+}
+
+.bracket .vbarPoll1-1 {
+    grid-area: 2 / 3 / 5 / 4
+}
+
+.bracket .vbarPoll1-2 {
+    grid-area: 2 / 16 / 5 /17
+}
+
+.bracket .vbarPoll2-1 {
+    grid-area: 4 / 5 / 11 /6
+}
+
+.bracket .vbarPoll2-2 {
+    grid-area: 4 / 14 / 11 / 15
+}
+
+.bracket .vbarPoll1-5 {
+    grid-area: 10 / 3 / 13 /4
+}
+
+.bracket .vbarPoll1-6 {
+    grid-area: 10 / 16 / 13 /17
+}
+
+.bracket .vbarPoll3-1 {
+    grid-area: 8 / 7 / 25 / 8
+}
+
+.bracket .vbarPoll3-2 {
+    grid-area: 8 / 12 / 25 /13
+}
+
+.bracket .vbarPoll1-4 {
+    grid-area: 18 / 3 / 21 / 4
+}
+
+.bracket .vbarPoll1-3 {
+    grid-area: 18 / 16 / 21 /17
+}
+
+.bracket .vbarPoll2-4 {
+    grid-area: 20 / 5 / 30 / 6
+}
+
+.bracket .vbarPoll2-3 {
+    grid-area: 20 / 14 / 30 /15
+}
+
+.bracket .vbarPoll1-8 {
+    grid-area: 28 / 3 / 31 / 4
+}
+
+.bracket .vbarPoll1-7 {
+    grid-area: 28 / 16 / 31 /17
+}
+
+.bracket .ranked1 {
+    grid-area: 1 / 1 / 1 / 4;
+    z-index: 1
+}
+
+.bracket .ranked2 {
+    grid-area: 1 / 16 / 1 / 19;
+    z-index: 1
+}
+
+.bracket .ranked16 {
+    grid-area: 5 / 1 / 5 / 4;
+    z-index: 1
+}
+
+.bracket .ranked15 {
+    grid-area: 5 / 16 / 5 / 19;
+    z-index: 1
+}
+
+.bracket .round21 {
+    grid-area: 3 / 3 / 3 / 6;
+    z-index: 1
+}
+
+.bracket .round25 {
+    grid-area: 3 / 14 / 3 / 17;
+    z-index: 1
+}
+
+.bracket .round31 {
+    grid-area: 7 / 5 / 7 / 8;
+    z-index: 1
+}
+
+.bracket .round41 {
+    grid-area: 15 / 7 / 15 / 10;
+    z-index: 1
+}
+
+.bracket .round42 {
+    grid-area: 15 / 10 / 15 / 13;
+    z-index: 1;
+    border-left: 1px solid #999
+}
+
+.bracket .round33 {
+    grid-area: 7 / 12 / 7 / 15;
+    z-index: 1
+}
+
+.bracket .round22 {
+    grid-area: 11 / 3 / 11 / 6;
+    z-index: 1
+}
+
+.bracket .round26 {
+    grid-area: 11 / 14 / 11 / 17;
+    z-index: 1
+}
+
+.bracket .ranked5 {
+    grid-area: 9 / 1 / 9 / 4;
+    z-index: 1
+}
+
+.bracket .ranked12 {
+    grid-area: 13 / 1 / 13 / 4;
+    z-index: 1
+}
+
+.bracket .ranked11 {
+    grid-area: 13 / 16 / 13 / 19;
+    z-index: 1
+}
+
+.bracket .ranked6 {
+    grid-area: 9 / 16 / 9 / 19;
+    z-index: 1
+}
+
+.bracket .ranked4 {
+    grid-area: 17 / 1 / 17 / 4;
+    z-index: 1
+}
+
+.bracket .ranked13 {
+    grid-area: 21 / 1 / 21 / 4;
+    z-index: 1
+}
+
+.bracket .ranked14 {
+    grid-area: 21 / 16 / 21 / 19;
+    z-index: 1
+}
+
+.bracket .ranked3 {
+    grid-area: 17 / 16 / 17 / 19;
+    z-index: 1
+}
+
+.bracket .round23 {
+    grid-area: 17 / 3 / 17 / 6;
+    z-index: 1
+}
+
+.bracket .round24 {
+    grid-area: 19 / 3 / 19 / 6;
+    z-index: 1
+}
+
+.bracket .round27 {
+    grid-area: 19 / 14 / 19 / 17;
+    z-index: 1
+}
+
+.bracket .round32 {
+    grid-area: 25 / 5 / 25 / 8;
+    z-index: 1
+}
+
+.bracket .round34 {
+    grid-area: 25 / 12 / 25 / 15;
+    z-index: 1
+}
+
+.bracket .round23 {
+    grid-area: 29 / 3 / 29 / 6;
+    z-index: 1
+}
+
+.bracket .round28 {
+    grid-area: 29 / 14 / 29 / 17;
+    z-index: 1
+}
+
+.bracket .ranked9 {
+    grid-area: 31 / 1 / 31 / 4;
+    z-index: 1
+}
+
+.bracket .ranked8 {
+    grid-area: 27 / 1 / 27 / 4;
+    z-index: 1
+}
+
+.bracket .ranked7 {
+    grid-area: 27 / 16 / 27 / 19;
+    z-index: 1
+}
+
+.bracket .ranked10 {
+    grid-area: 31 / 16 / 31 / 19;
+    z-index: 1
+}
+
+.bracket .adBox {
+    grid-area: 27 / 6 / 37 / 14;
+    z-index: 1;
+    text-align: center
+}
+
+.bracket .ranked2,
+.bracket .ranked15,
+.bracket .ranked6,
+.bracket .ranked11,
+.bracket .ranked3,
+.bracket .ranked14,
+.bracket .ranked7,
+.bracket .ranked10,
+.bracket .round25,
+.bracket .round26,
+.bracket .round27,
+.bracket .round28,
+.bracket .round33,
+.bracket .round34,
+.bracket .round42 {
+    text-align: right
+}
+
+.bracket .ranked2 .numberBox,
+.bracket .ranked15 .numberBox,
+.bracket .ranked6 .numberBox,
+.bracket .ranked11 .numberBox,
+.bracket .ranked3 .numberBox,
+.bracket .ranked14 .numberBox,
+.bracket .ranked7 .numberBox,
+.bracket .ranked10 .numberBox,
+.bracket .round25 .numberBox,
+.bracket .round26 .numberBox,
+.bracket .round27 .numberBox,
+.bracket .round28 .numberBox,
+.bracket .round33 .numberBox,
+.bracket .round34 .numberBox,
+.bracket .round42 .numberBox {
+    float: left;
+    height: 100%
+}
+
+.bracket .ranked1 .numberBox,
+.bracket .ranked16 .numberBox,
+.bracket .ranked5 .numberBox,
+.bracket .ranked12 .numberBox,
+.bracket .ranked4 .numberBox,
+.bracket .ranked13 .numberBox,
+.bracket .ranked8 .numberBox,
+.bracket .ranked9 .numberBox,
+.bracket .round21 .numberBox,
+.bracket .round22 .numberBox,
+.bracket .round23 .numberBox,
+.bracket .round24 .numberBox,
+.bracket .round31 .numberBox,
+.bracket .round32 .numberBox,
+.bracket .round41 .numberBox {
+    float: right;
+    height: 100%
+}
+
+.bracket .current {
+    font-weight: bold;
+    text-align: center;
+    background-color: #4d96fd;
+    padding: 5px;
+    color: #ffffff;
+    letter-spacing: 1px
+}
+
+.bracket .current .numberBox {
+    display: none
+}
+
+.bracket .winner {
+    background-color: #c3dffe;
+    color: #666;
+    padding: 5px
+}
+
+.bracket .winner .numberBox {
+    background-color: transparent;
+    color: #666
+}
+
+.bracket .loser {
+    background-color: #c3dffe;
+    color: #999;
+    padding: 5px
+}
+
+.bracket .loser .numberBox {
+    background-color: transparent;
+    color: #999
+}
+
+.bracket .notYet {
+    text-align: center;
+    color: #999;
+    background-color: #d6d6d6;
+    padding: 5px
+}
+
+.bracket .notYet .numberBox {
+    background: #999;
+    display: none
+}
+
+.bracket .adBox {
+    font-family: "Benton Sans", Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    color: #FFF;
+    padding-top: 5%;
+    line-height: 18px
+}
+
+/*# sourceMappingURL=styles.bundle.css.map */
