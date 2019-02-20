@@ -7,13 +7,12 @@
 }
 
 #vote-form {
-	 display: block !important
-    // display: none !important
+    display: none !important
 }
 
 .battle-results {
-	display: block !important
-    // display: none !important
+
+    display: none !important
 }
 
 #confetti {
@@ -1373,7 +1372,8 @@ p.submitMessage {
 .bracket .winner {
     background-color: #c3dffe;
     color: #666;
-    padding: 5px
+    padding: 5px;
+    font-weight:bold;
 }
 
 .bracket .winner .numberBox {
