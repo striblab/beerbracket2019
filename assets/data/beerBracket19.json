@@ -4,14 +4,14 @@
       "id": 506063491,
       "options": [
       {
-        "name": "[1] Surly",
-        "art": "bb_surly",
-        "blurb": "One of the state’s hottest brands, Surly was a major impetus behind the 2011 bill that allowed Minnesota breweries to open taprooms."
+        "name": "[1] Castle Danger",
+        "art": "bb19_castle-danger",
+        "blurb": "The 2018 Ultimate Beer Bracket champ from Two Harbors is still growing and has gained a loyal following, thanks in part to its flagship Cream Ale."
       },
       {
-        "name": "[16] Bad Weather",
-        "art": "bb_bad-weather",
-        "blurb": "The 'untethered and unpredictable' beers made at St. Paul’s Bad Weather include the Windvane red IPA and the Sun Pillar Belgian blonde."
+        "name": "[16] Lift Bridge",
+        "art": "bb19_lift-bridge",
+        "blurb": "Since 2008, Stillwater-based Lift Bridge has honed its reputation with brews like its Farm Girl Saison – and also its non-alcoholic root beer."
       }]
     },
 
@@ -19,13 +19,13 @@
       "id": 506063691,
       "options": [
       {
-        "name": "[2] Castle Danger",
-        "art": "bb_castle-danger",
-        "blurb": "This Two Harbors operation is still growing but has gained a loyal following, thanks in part to its snazzy cans and flagship Cream Ale."
+        "name": "[2] Bent Paddle",
+        "art": "bb19_bent-paddle",
+        "blurb": "Stationed on the North Shore, Bent Paddle uses Lake Superior water and is known for its 'sessionable' or easy-drinking beers."
       },
       {
         "name": "[15] Steel Toe",
-        "art": "bb_steel-toe",
+        "art": "bb19_steel-toe",
         "blurb": "A St. Louis Park brewery that claims it has 'big dreams of staying small,' Steel Toe’s ale-heavy selection includes the popular Size 7 IPA."
       }]
     },
@@ -34,14 +34,14 @@
       "id": 506063751,
       "options": [
       {
-        "name": "[3] Bent Paddle",
-        "art": "bb_bent-paddle",
-        "blurb": "Stationed on the North Shore, Bent Paddle uses Lake Superior water and is known for its 'sessionable' or easy-drinking beers."
+        "name": "[3] Surly",
+        "art": "bb19_surly",
+        "blurb": "One of the state’s hottest brands, Surly was a major impetus behind the 2011 bill that allowed Minnesota breweries to open taprooms."
       },
       {
-        "name": "[14] Bauhaus",
-        "art": "bb_bauhaus",
-        "blurb": "With German-inspired styles and a colorful Northeast Minneapolis taproom, Bauhaus sits in the heart of the Twin Cities craft brew scene."
+        "name": "[14] Insight",
+        "art": "bb19_insight",
+        "blurb": "Opening in 2015, fantastical brews – such as the Sunken City made with sauvignon blanc grapes – is the name of Insight’s game."
       }]
     },
 
@@ -50,13 +50,13 @@
       "options": [
       {
         "name": "[4] Schell's",
-        "art": "bb_schells",
-        "blurb": "Last year’s Ultimate Beer Bracket winner, Schell’s is the longest-running brewery in the state and one of the nation’s oldest."
+        "art": "bb19_schells",
+        "blurb": "The first ever Ultimate Beer Bracket winner, Schell’s is the longest-running brewery in the state and one of the nation’s oldest."
       },
       {
-        "name": "[13] Junkyard",
-        "art": "bb_junkyard",
-        "blurb": "The pride of Moorhead, Junkyard has specialized in dark and malty, hoppy and sour beers – see the Experimental Passionfruit – since 2013."
+        "name": "[13] Modist",
+        "art": "bb19_modist",
+        "blurb": "The North Loop Minneapolis brewery’s lineup includes the Dreamyard hazy IPA and First Call Cold Press Coffee Lager."
       }]
     },
 
@@ -65,13 +65,13 @@
       "options": [
       {
         "name": "[5] Summit",
-        "art": "bb_summit",
-        "blurb": "The well-loved Extra Pale Ale which was first brewed in 1986 – more than 30 years later Summit has proved to be tried and true."
+        "art": "bb19_summit",
+        "blurb": "More than 30 years since its much-loved Extra Pale Ale was first brewed, Summit has proved to be tried and true."
       },
       {
-        "name": "[12] Fair State",
-        "art": "bb_fair-state",
-        "blurb": "Minnesota’s first co-op brewery, Fair State is as beloved for its beer – Roselle hibiscus sour, anyone – as its community connection."
+        "name": "[12] Bad Weather",
+        "art": "bb19_bad-weather",
+        "blurb": "The 'untethered and unpredictable' beers made at St. Paul’s Bad Weather include the Windvane red IPA and the Sun Pillar Belgian blonde."
       }]
     },
 
@@ -80,13 +80,13 @@
       "options": [
       {
         "name": "[6] Dangerous Man",
-        "art": "bb_dangerous-man",
-        "blurb": "Debuting in 2013, Dangerous Man is known for its wide range of styles, from peanut butter porter to mango habanero milkshake IPA."
+        "art": "bb19_dangerous-man",
+        "blurb": "Debuting in 2013, Dangerous Man is known for its wide range of styles, from peanut butter porter to key lime milkshake IPA."
       },
       {
-        "name": "[11] Insight",
-        "art": "bb_insight",
-        "blurb": "Opening in 2015, fantastical brews – such as the Sunken City made with Saison and Sauv Blanc grapes – is the name of Insight’s game."
+        "name": "[11] Lupulin",
+        "art": "bb19_lupulin",
+        "blurb": "This downtown Big Lake brewery launched in 2015 and is growing fast, thanks to the popularity of hop-heavy flagship IPAs Blissful Ignorance and Hooey."
       }]
     },
 
@@ -94,14 +94,14 @@
       "id": 506064111,
       "options": [
       {
-        "name": "[7] Indeed",
-        "art": "bb_indeed",
-        "blurb": "The first Northeast Minneapolis production brewery to open a taproom, Indeed is known for its Day Tripper pale ale, and its charitable backbone."
+        "name": "[7] Fair State",
+        "art": "bb19_fair-state",
+        "blurb": "Minnesota’s first co-op brewery, Fair State is as beloved for its beer – Roselle hibiscus sour, anyone? – as its community connection."
       },
       {
         "name": "[10] Barrel Theory",
-        "art": "bb_barrel-theory",
-        "blurb": "Brand new to the game, Barrel Theory, known for its coconut milk stout, is nonetheless making waves since opening its doors last summer."
+        "art": "bb19_barrel-theory",
+        "blurb": "Relatively new to the scene, Barrel Theory launched in 2017 and quickly landed on the craft beer map with its IPAs and bourbon barrel-aged specials."
       }]
     },
 
@@ -109,14 +109,14 @@
       "id": 506064171,
       "options": [
       {
-        "name": "[8] Fulton",
-        "art": "bb_fulton",
-        "blurb": "Boasting crowd favorites such as Lonely Blonde and Sweet Child of Vine, Minneapolis’ Fulton has become one of MN’s most recognizable brands."
+        "name": "[8] Indeed",
+        "art": "bb19_indeed",
+        "blurb": "The first Northeast Minneapolis production brewery to open a taproom, Indeed is known for its Day Tripper pale ale, and its charitable backbone."
       },
       {
-        "name": "[9] Lift Bridge",
-        "art": "bb_lift-bridge",
-        "blurb": "Since 2008, Stillwater-based Lift Bridge has honed its reputation with brews like its Farm Girl Saison – and also its non-alcoholic root beer."
+        "name": "[9] Fulton",
+        "art": "bb19_fulton",
+        "blurb": "Boasting crowd favorites such as Lonely Blonde and Sweet Child of Vine, Minneapolis’ Fulton has become one of MN’s most recognizable brands."
       }]
     },
 
@@ -132,12 +132,12 @@
       "options": [
       {
         "name": "[1 or 16] ??",
-        "art": "bb_surly",
+        "art": "bb19_surly",
         "blurb": "ROUND 2: Winner of poll 1-1 (rank 1 and 16)"
       },
       {
         "name": "[5 or 12] ??",
-        "art": "bb_surly",
+        "art": "bb19_surly",
         "blurb": "ROUND 2: Winner of poll 1-5 (rank 5 and 12)"
       }]
     },
@@ -148,12 +148,12 @@
       "options": [
       {
         "name": "[2 or 15] ??",
-        "art": "bb_surly",
+        "art": "bb19_surly",
         "blurb": "ROUND 2: Winner of poll 1-2 (rank 2 and 15)"
       },
       {
         "name": "[6 or 11] ??",
-        "art": "bb_surly",
+        "art": "bb19_surly",
         "blurb": "ROUND 2: Winner of poll 1-6 (rank 6 and 11)"
       }]
     },
@@ -162,12 +162,12 @@
       "options": [
       {
         "name": "[3 or 14] ??",
-        "art": "bb_surly",
+        "art": "bb19_surly",
         "blurb": "ROUND 2: Winner of poll 1-3 (rank 3 and 14)"
       },
       {
         "name": "[7 or 10] ??",
-        "art": "bb_surly",
+        "art": "bb19_surly",
         "blurb": "ROUND 2: Winner of poll 1-7 (rank 7 and 10) "
       }]
     },
@@ -176,12 +176,12 @@
       "options": [
       {
         "name": "[4 or 13] ??",
-        "art": "bb_surly",
+        "art": "bb19_surly",
         "blurb": "ROUND 2: Winner of poll 1-4 (rank 4 and 13)"
       },
       {
         "name": "[8 or 9] ??",
-        "art": "bb_surly",
+        "art": "bb19_surly",
         "blurb": "ROUND 2: Winner of poll 1-8 (rank 8 and 9)"
       }]
     },
