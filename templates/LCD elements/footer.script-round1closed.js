@@ -16,7 +16,7 @@
 
 $('.js-bracket-submit').on('click', function(e) {
   e.preventDefault();
-  Cookies.set('BeerBracketCookie2', true, { expires: 2, path: '' });
+  Cookies.set('BeerBracketCookie0', true, { expires: 2, path: '' });
   updateVoteButton();
 
     gtag('event', 'beer_bracket_2019', {
@@ -27,7 +27,7 @@ $('.js-bracket-submit').on('click', function(e) {
 });
 
 $(document).ready(function() {
-  var visitedBeerBracket = Cookies.get('BeerBracketCookie2');
+  var visitedBeerBracket = Cookies.get('BeerBracketCookie0');
   if (visitedBeerBracket) {
     updateVoteButton();
   } else {

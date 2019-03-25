@@ -131,58 +131,59 @@
       "id": 506064411,
       "options": [
       {
-        "name": "[1 or 16] ??",
-        "art": "bb19_surly",
-        "blurb": "ROUND 2: Winner of poll 1-1 (rank 1 and 16)"
+        "name": "[1] Castle Danger",
+        "art": "bb19_castle-danger",
+        "blurb": "The 2018 Ultimate Beer Bracket champ from Two Harbors is still growing and has gained a loyal following, thanks in part to its flagship Cream Ale."
       },
       {
-        "name": "[5 or 12] ??",
-        "art": "bb19_surly",
-        "blurb": "ROUND 2: Winner of poll 1-5 (rank 5 and 12)"
+        "name": "[8] Indeed",
+        "art": "bb19_indeed",
+        "blurb": "The first Northeast Minneapolis production brewery to open a taproom, Indeed is known for its Day Tripper pale ale, and its charitable backbone."
       }]
     },
-
 
     {
       "id": 506064471,
       "options": [
       {
-        "name": "[2 or 15] ??",
-        "art": "bb19_surly",
-        "blurb": "ROUND 2: Winner of poll 1-2 (rank 2 and 15)"
+        "name": "[2] Bent Paddle",
+        "art": "bb19_bent-paddle",
+        "blurb": "Stationed on the North Shore, Bent Paddle uses Lake Superior water and is known for its 'sessionable' or easy-drinking beers."
       },
       {
-        "name": "[6 or 11] ??",
-        "art": "bb19_surly",
-        "blurb": "ROUND 2: Winner of poll 1-6 (rank 6 and 11)"
+        "name": "[7] Fair State",
+        "art": "bb19_fair-state",
+        "blurb": "Minnesota’s first co-op brewery, Fair State is as beloved for its beer – Roselle hibiscus sour, anyone? – as its community connection."
       }]
     },
+
     {
       "id": 506064511,
       "options": [
       {
-        "name": "[3 or 14] ??",
+        "name": "[3] Surly",
         "art": "bb19_surly",
-        "blurb": "ROUND 2: Winner of poll 1-3 (rank 3 and 14)"
+        "blurb": "One of the state’s hottest brands, Surly was a major impetus behind the 2011 bill that allowed Minnesota breweries to open taprooms."
       },
       {
-        "name": "[7 or 10] ??",
-        "art": "bb19_surly",
-        "blurb": "ROUND 2: Winner of poll 1-7 (rank 7 and 10) "
+        "name": "[6] Dangerous Man",
+        "art": "bb19_dangerous-man",
+        "blurb": "Debuting in 2013, Dangerous Man is known for its wide range of styles, from peanut butter porter to key lime milkshake IPA."
       }]
     },
+
     {
       "id": 506064571,
       "options": [
       {
-        "name": "[4 or 13] ??",
-        "art": "bb19_surly",
-        "blurb": "ROUND 2: Winner of poll 1-4 (rank 4 and 13)"
+        "name": "[4] Schell's",
+        "art": "bb19_schells",
+        "blurb": "The first ever Ultimate Beer Bracket winner, Schell’s is the longest-running brewery in the state and one of the nation’s oldest."
       },
       {
-        "name": "[8 or 9] ??",
-        "art": "bb19_surly",
-        "blurb": "ROUND 2: Winner of poll 1-8 (rank 8 and 9)"
+        "name": "[8] Summit",
+        "art": "bb19_summit",
+        "blurb": "More than 30 years since its much-loved Extra Pale Ale was first brewed, Summit has proved to be tried and true."
       }]
     },
 
@@ -194,12 +195,12 @@
       "id": 506064621,
       "options": [
       {
-        "name": "[? ?] ???",
+        "name": "[??] ???",
         "art": "xxx",
         "blurb": "ROUND 3: Winner of poll 2-1 and 2-2"
       },
       {
-        "name": "[? ?] ???",
+        "name": "[??] ???",
         "art": "xxx",
         "blurb": "ROUND 3: Winner of poll 2-3 and 2-4"
       }]
@@ -208,7 +209,7 @@
       "id": 506064651,
       "options": [
       {
-        "name": "[? ?] ???",
+        "name": "[??] ???",
         "art": "xxx",
         "blurb": "ROUND 3: Winner of poll 2-5 and 2-6"
       },

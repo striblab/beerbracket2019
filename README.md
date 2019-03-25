@@ -11,7 +11,8 @@ http://stmedia.startribune.com/images/beer-16-group2.jpg
 ## Things to update when rounds change
 	LCD - 506004581
 	1. update Story hero (see 'Examples for hero text' below)
-	2. update Bracket Content with results and update selectors (see 'css labels for bracket' below)
+	2. update Bracket Content with results and update selector classes (see 'css labels for bracket' below)
+
 	3. change Canonical URL for new round
 	4. Change Return Message
 	5. Change Footer Script with new visitedBeerBracket var (change round number)
@@ -34,32 +35,46 @@ http://stmedia.startribune.com/images/beer-16-group2.jpg
 
 EXAMPLES FOR HERO TEXT:
 
-## Vote Now
+## VOTE
 <div class="l-article article"> <div class="l-article-topper"> <h5 class="label">2019 Ultimate Minnesota Beer Bracket</h5> <h1 class="article-headline"><span class="desktop">Sudsy Sixteen: </span>Make your picks</h1> <div class="article-body"><p>The people have spoken, the field is set and it’s time to decide which Minnesota breweries will advance to the Ale-ite Eight. <span class="desktop">Click the vote button to enter your selections. Voting closes at 5 p.m. Thursday.</span><span class="mobile">Click the jersey to make your selections. Voting closes at 5 p.m. Thursday. </span></p></div> </div>
 
 css: 
 .desktop.vote-btn {
-  display: block !important; // display: none !important
+  display: block !important; 
   opacity: 0;
 }
 
 #vote-form {
-  // display: block !important
+  display: block; //display: none !important;
 }
 
 
-## Closed 
-<div class="l-article article"> <div class="l-article-topper"> <h5 class="label">2019 Ultimate Minnesota Beer Bracket</h5> <h1 class="article-headline"><span class="desktop">Sudsy Sixteen</span></h1> <div class="article-body desktop"><p>Voting has closed in the Sudsy Sixteen round. Results will be announced Monday morning, and voting in the Ale-ite Eight round will begin as well.</span></p></div> <div class="article-body mobile"><p>Voting has closed in the Sudsy Sixteen round. Results will be announced Monday morning, and voting in the Ale-ite Eight round will begin as well. </p></div> </div> </div>
+## CLOSED
+put closed message into Package Summary
+
+LCD:
+Story Hero:
+<div class="l-article article"> <div class="l-article-topper"> <h5 class="label">2019 Ultimate Minnesota Beer Bracket</h5> <h1 class="article-headline">Sudsy Sixteen</h1> <div class="article-body"><p>Voting has closed in the Sudsy Sixteen round! Check back on Monday morning to see the results and vote for your favorites in the Ale-ite Eight.</p></div></div></div>
 
 css: 
 .desktop.vote-btn {
-  display: none !important; // display: block !important
+  display: none !important; 
   opacity: 0;
 }
 
 #vote-form {
-  // display: none !important
+  display: none !important; //display: block;
 }
+
+##COMMAND LINE COMMANDS
+gulp develop --cms to turn on watch
+gulp publish --production to send to S3 - used to update json,css
+
+##SEEING LOCAL CHANGES TO BRACKET (w/o publishing)
+make your css changes 
+bracket updates in index-content.svelte.html 
+gulp develop: will show local changes
+
 
 BIG WINNER: added to the top of the Bracket Content field in LCD at the end of championship
 

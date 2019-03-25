@@ -1,0 +1,59 @@
+SEEING LOCAL CHANGES TO BRACKET (w/o publishing)
+x	make your css changes 
+		.desktop.vote-btn {
+	 			 display: block !important; //display: none !important;
+	 			 opacity: 0;
+		}
+
+		#vote-form {
+		  			display: block; //display: none !important;
+		}
+
+x	bracket updates in index-content.svelte.html 
+x	gulp develop: will show local changes
+
+
+COMMAND LINE
+x	-gulp publish --production    updates json,css 
+
+
+LCD - 506004581
+x	Story Hero:
+		<div class="l-article article"> <div class="l-article-topper"> <h5 class="label">2019 Ultimate Minnesota Beer Bracket</h5> <h1 class="article-headline"><span class="desktop">Ale-ite Eight: </span>Make your picks</h1> <div class="article-body"><p>The people have spoken, the field is set and it’s time to decide which Minnesota breweries will advance to the Foamy Four. <span class="desktop">Click the vote button to enter your selections. Voting closes at 5 p.m. Tuesday.</span><span class="mobile">Click the jersey to make your selections. Voting closes at 5 p.m. Tuesday. </span></p></div> </div>
+
+x	Bracket Content: update from workflow (index-content.svelte.html) (make sure Round 2 is current)
+
+x	Canonical url:
+	http://www.startribune.com/welcome-to-the-Ale-ite-Eight/506004471/?round=2
+
+x	Round: 2
+
+x	Return message: See you on Friday for round 3!
+
+x	Footer Script: update cookie BeerBracketCookie0 to BeerBracketCookie2
+		and "already voted" message
+
+
+PACKAGE - 506004471
+x	Title - for url
+		The top eight breweries duke it out in the Ultimate Minnesota Beer Bracket
+
+x	Package Name - for sharing
+			The top eight breweries duke it out in the Ultimate Minnesota Beer Bracket
+
+x	Package Summary - for Google and sharing
+
+			You picked your favorites for the Ale-ite Eight, now vote to see who moves on to the Foamy Four. Voting in this round closes on Tuesday at 5 p.m.
+
+x	update images
+		related image - static image from Mike
+		thumbnail - static image from Mike
+
+
+LINK-TO - 507369351
+x	update the Homepage Header story under related items with Sharon's new analysis.  
+x	Animated gif goes in the related image
+x	update url - http://www.startribune.com/welcome-to-the-Ale-ite-Eight/506004471/?round=2
+
+SOCIAL
+x	Debuggers
