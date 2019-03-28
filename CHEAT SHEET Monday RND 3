@@ -1,0 +1,70 @@
+SEEING LOCAL CHANGES TO BRACKET (w/o publishing)
+x	make your css changes 
+
+		.desktop.vote-btn {
+		  display: block !important; // for live
+		  // display: none !important; // for closed
+		  opacity: 0;
+		}
+
+		#vote-form {
+		  display: block; // for live
+		  // display: none !important // for closed
+		}
+
+x   make changes to the beerBracket19.json (assets/data) file
+x	add names and assets of previous round winners into new round.  Double check poll ids.
+x	move bracket updates (Bracket_Content.html in templates/LCD elements) in index-content.svelte.html 
+x	gulp develop: will show local changes
+
+MOVING NEW BRACKET INFO LIVE
+-	gulp publish --production: updates json,css 
+
+
+LCD - 506004581
+	Story Hero:
+x		VOTE
+		<div class="l-article article"> <div class="l-article-topper"> <h5 class="label">2019 Ultimate Minnesota Beer Bracket</h5> <h1 class="article-headline"><span class="desktop">Foamy Four: </span>Make your picks</h1> <div class="article-body"><p>The people have spoken, the field is set and it’s time to decide which Minnesota breweries will advance to the Last Call round. <span class="desktop">Click the vote button to enter your selections. Voting closes at 5 p.m. Monday</span><span class="mobile">Click the jersey to make your selections. Voting closes at 5 p.m. Monday. </span></p></div> </div>
+
+-		CLOSE
+		<div class="l-article article"> <div class="l-article-topper"> <h5 class="label">2019 Ultimate Minnesota Beer Bracket</h5> <h1 class="article-headline"><span class="desktop">Foamy Four</span></h1> <div class="article-body"><p>Voting has closed in the Foamy Four round! Check back Wednesday morning to see the results and vote for your champion in the Last Call round.</p></div> </div>
+
+x	Bracket Content: update from workflow (index-content.svelte.html) (make sure Round 3 is current)
+
+x	Canonical url:
+	http://www.startribune.com/vote-now-the-top-4-breweries-duke-it-out-in-the-ultimate-minnesota-beer-bracket/506004471/?round=3
+
+x	Round: 3
+
+x	Return message: See you on Wednesday for the final round!
+
+x	Footer Script: update cookie BeerBracketCookie2 to BeerBracketCookie3
+		and "already voted" message
+		Thank you for voting. Next round starts Wednesday, April 3rd.
+
+
+PACKAGE - 506004471
+x	Title - for url
+			Vote now: The top 4 breweries duke it out in the Ultimate Minnesota Beer Bracket
+
+x	Package Name - for sharing
+			Vote now: The top 4 breweries duke it out in the Ultimate Minnesota Beer Bracket
+
+x	Package Summary - for Google and sharing
+			You picked your favorites for the Foamy Four, now vote to see who moves on to the Last Call round. Voting in this round closes on Monday at 5 p.m.
+
+x	update images
+		related image - static image from Mike
+		thumbnail - static image from Mike
+
+
+LINK-TO - 507369351
+-	update the Homepage Header story under related items with Sharon's new analysis.  
+x	Animated gif goes in the related image
+	update url - http://www.startribune.com/vote-now-the-top-4-breweries-duke-it-out-in-the-ultimate-minnesota-beer-bracket/506004471/?round=3
+
+SOCIAL
+-	Debuggers (facebook and twitter)
+
+REDIRECT
+-	update /beerbracket to canonical url (http://www.startribune.com/vote-now-the-top-4-breweries-duke-it-out-in-the-ultimate-minnesota-beer-bracket/506004471/?round=3)
