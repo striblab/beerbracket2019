@@ -2,12 +2,14 @@
  * Project specific styling.
  */
 .desktop.vote-btn {
-  display: block !important; // display: none !important
+  display: block !important; // for live
+  // display: none !important; // for closed
   opacity: 0;
 }
 
 #vote-form {
-  display: block; // display: none !important
+  display: block; // for live
+  // display: none !important // for closed
 }
 
 .battle-results {
@@ -274,7 +276,7 @@
 .l-article-topper>.article-body {
   padding-left: 30px;
   padding-right: 30px;
-  max-width:700px;
+  max-width: 700px;
 }
 
 .article-body {
@@ -314,7 +316,8 @@
 }
 
 .bracket {
-  margin-bottom: 48px; margin-top:50px;
+  margin-bottom: 48px;
+  margin-top: 50px;
 }
 
 .vote-btn {
@@ -1113,7 +1116,7 @@ p.submitMessage {
 .bracket .current {
   display: block;
   min-width: 150px;
-  height:25px;
+  height: 25px;
 }
 
 .bracket .vbarPoll1-1 {
@@ -1349,12 +1352,19 @@ p.submitMessage {
 .bracket .round32,
 .bracket .round41 {
   text-align: left;
+
+  .text {
+    display: block;
+    float: left;
+  }
+
   // border-right: 1px solid #ffffff;
   // border-left: 1px solid #111111;
   // -webkit-box-shadow: -2px 1px 3px 0px rgba(0, 0, 0, 0.5);
   // -moz-box-shadow: -2px 1px 3px 0px rgba(0, 0, 0, 0.5);
   // box-shadow: -2px 1px 3px 0px rgba(0, 0, 0, 0.5);
 }
+
 
 .bracket .ranked1,
 .bracket .ranked16,
@@ -1375,10 +1385,7 @@ p.submitMessage {
     }
   }
 
-  .text {
-    display: block;
-    float: left;
-  }
+
 }
 
 
@@ -1473,6 +1480,10 @@ p.submitMessage {
 }
 
 .bracket .current {
+  .text {
+    float: none;
+  }
+
   font-weight: bold;
   text-align: center;
   background-color: #95c1ff;
@@ -1499,15 +1510,17 @@ p.submitMessage {
   color: #666
 }
 
-.bracket .loser {
+.bracket .loser,
+.bracket .winner.loser {
   background-color: #c3dffe;
   color: #999;
   padding: 5px;
-  img{
-    filter:grayscale(100%);
-    // filter:brightness(200%);
-    opacity:.3;
-}
+
+  img {
+    filter: grayscale(100%);
+    opacity: .3;
+  }
+
 }
 
 .bracket .loser .numberBox {
@@ -1520,8 +1533,11 @@ p.submitMessage {
   color: #999;
   background-color: #d6d6d6;
   padding: 5px;
-  height:25px;
-  min-width:100px;
+  height: 25px;
+  min-width: 100px;
+  .text{
+    float:none;
+  }
 }
 
 .bracket .notYet .numberBox {

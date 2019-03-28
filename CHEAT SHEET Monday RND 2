@@ -57,3 +57,6 @@ x	update url - http://www.startribune.com/welcome-to-the-Ale-ite-Eight/506004471
 
 SOCIAL
 x	Debuggers
+
+REDIRECT
+x	update /beerbracket to canonical url (http://www.startribune.com/welcome-to-the-Ale-ite-Eight/506004471/?round=2)

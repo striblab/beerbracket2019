@@ -11,12 +11,12 @@
 <script >
 
   function updateVoteButton() {
-    $('.vote-btn').text('Thank you for voting. Next round starts Monday, March 25th.').attr('disabled', true).addClass('disabled');
+    $('.vote-btn').text('Thank you for voting. Next round starts Wednesday, April 3rd.').attr('disabled', true).addClass('disabled');
   };
 
 $('.js-bracket-submit').on('click', function(e) {
   e.preventDefault();
-  Cookies.set('BeerBracketCookie2', true, { expires: 2, path: '' });
+  Cookies.set('BeerBracketCookie3', true, { expires: 2, path: '' });
   updateVoteButton();
 
     gtag('event', 'beer_bracket_2019', {
@@ -27,7 +27,7 @@ $('.js-bracket-submit').on('click', function(e) {
 });
 
 $(document).ready(function() {
-  var visitedBeerBracket = Cookies.get('BeerBracketCookie2');
+  var visitedBeerBracket = Cookies.get('BeerBracketCookie3');
   if (visitedBeerBracket) {
     updateVoteButton();
   } else {
