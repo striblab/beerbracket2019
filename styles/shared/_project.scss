@@ -2,14 +2,14 @@
  * Project specific styling.
  */
 .desktop.vote-btn {
-  display: block !important; // for live
-  // display: none !important; // for closed
+  // display: block !important; // for live
+  display: none !important; // for closed
   opacity: 0;
 }
 
 #vote-form {
-  display: block; // for live
-  // display: none !important // for closed
+  // display: block; // for live
+  display: none !important // for closed
 }
 
 .battle-results {
@@ -1119,6 +1119,16 @@ p.submitMessage {
   height: 25px;
 }
 
+.bracket .current {
+  min-width: 0;
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 640px) {
+  .bracket .current {
+    height: auto;
+  }
+}
+
 .bracket .vbarPoll1-1 {
   grid-area: 2 / 3 / 5 / 4
 }
@@ -1358,11 +1368,6 @@ p.submitMessage {
     float: left;
   }
 
-  // border-right: 1px solid #ffffff;
-  // border-left: 1px solid #111111;
-  // -webkit-box-shadow: -2px 1px 3px 0px rgba(0, 0, 0, 0.5);
-  // -moz-box-shadow: -2px 1px 3px 0px rgba(0, 0, 0, 0.5);
-  // box-shadow: -2px 1px 3px 0px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -1376,7 +1381,7 @@ p.submitMessage {
 .bracket .ranked9 {
   img {
     height: 45px;
-    margin: -21px 15px 0 0;
+    margin: -21px 7px 0 0;
     vertical-align: bottom;
     float: left;
 
@@ -1384,8 +1389,6 @@ p.submitMessage {
       margin-top: -10px;
     }
   }
-
-
 }
 
 
@@ -1406,11 +1409,11 @@ p.submitMessage {
 .bracket .round34,
 .bracket .round42 {
   text-align: right;
-  // border-left: 1px solid #ffffff;
-  // border-right: 1px solid #111111;
-  // -webkit-box-shadow: 2px 1px 3px 0px rgba(0, 0, 0, 0.5);
-  // -moz-box-shadow: 2px 1px 3px 0px rgba(0, 0, 0, 0.5);
-  // box-shadow: 2px 1px 3px 0px rgba(0, 0, 0, 0.5);
+
+  .text {
+    display: block;
+    float: right;
+  }
 }
 
 .bracket .ranked2,
@@ -1423,18 +1426,13 @@ p.submitMessage {
 .bracket .ranked10 {
   img {
     height: 45px;
-    margin: -21px 0 0 15px;
+    margin: -21px 0 0 7px;
     vertical-align: bottom;
     float: right;
 
     &.top {
       margin-top: -10px;
     }
-  }
-
-  .text {
-    display: block;
-    float: right;
   }
 }
 
@@ -1535,8 +1533,9 @@ p.submitMessage {
   padding: 5px;
   height: 25px;
   min-width: 100px;
-  .text{
-    float:none;
+
+  .text {
+    float: none;
   }
 }
 

@@ -228,15 +228,14 @@
       "id": 506064711,
       "options": [
       {
-        "name": "[??] ????",
-        "art": "xxx",
-        "blurb": "ROUND 4: Winner of poll 3-1 and 3-2"
-
+        "name": "[1] Castle Danger",
+        "art": "bb19_castle-danger",
+        "blurb": "The 2018 Ultimate Beer Bracket champ from Two Harbors is still growing and has gained a loyal following, thanks in part to its flagship Cream Ale."
       },
       {
-        "name": "[1] Darth Vader",
-        "art": "xxx",
-        "blurb": "ROUND 4: Winner of poll 3-3 and 3-4"
+        "name": "[2] Bent Paddle",
+        "art": "bb19_bent-paddle",
+        "blurb": "Stationed on the North Shore, Bent Paddle uses Lake Superior water and is known for its 'sessionable' or easy-drinking beers."
 
       }]
     }
